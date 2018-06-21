@@ -1,9 +1,14 @@
 
+html{
+	font-size: 18px;
+}
+
 /* Header */
 
 header{
    max-width: 960px;
    margin: 0 auto;
+
 }
 
 
@@ -15,7 +20,13 @@ header{
 	color: white;
 	border: 1px;
 	font-size: 1rem;
-	padding: .66rem 0 .66rem 0.5rem;
+	padding: .66rem 0 .66rem 4rem;
+
+}
+
+.supply img{
+	height: 1.5rem;
+	padding-right: 1rem;
 }
 
 
@@ -60,6 +71,25 @@ header{
 	font-size: 2rem;
 	
 }
+
+
+
+/* Navigation Bar */
+
+nav{
+	background-color: firebrick;
+	width: 960px;
+}
+
+.navigation{
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0.75rem 0;
+}
+
+
 
 
 
